@@ -1,0 +1,47 @@
+{
+	// Keep this file the same in Coberto's Utilities and Slot Machine.
+	"format_version": "1.21.90",
+	"minecraft:block": {
+		"description": {
+			"identifier": "coberto:slot_machine",
+			"menu_category": { "category": "items" },
+			"traits": {
+				"minecraft:placement_direction": { "enabled_states": [ "minecraft:cardinal_direction" ] }
+			}
+		},
+		"components": {
+			// Using the block opens the Mystical Slots menu (scripts/slot_machine.js).
+			"coberto:slot_machine": {},
+			"minecraft:geometry": "minecraft:geometry.full_block",
+			"minecraft:material_instances": {
+				"*": { "texture": "coberto_slot_machine_side", "render_method": "opaque" },
+				"south": { "texture": "coberto_slot_machine_front", "render_method": "opaque" },
+				"up": { "texture": "coberto_slot_machine_top", "render_method": "opaque" },
+				"down": { "texture": "coberto_slot_machine_bottom", "render_method": "opaque" }
+			},
+			"minecraft:destructible_by_mining": { "seconds_to_destroy": 1.5 },
+			"minecraft:destructible_by_explosion": { "explosion_resistance": 6 },
+			"minecraft:light_emission": 6,
+			"minecraft:map_color": "#B3212B"
+		},
+		// The reels (south face) turn to face whoever placed it.
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": { "minecraft:transformation": { "rotation": [ 0, 0, 0 ] } }
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": { "minecraft:transformation": { "rotation": [ 0, 180, 0 ] } }
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": { "minecraft:transformation": { "rotation": [ 0, 90, 0 ] } }
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": { "minecraft:transformation": { "rotation": [ 0, -90, 0 ] } }
+			}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "slot_machine",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"coberto_slot_machine_front": { "textures": "textures/blocks/slot_machine_front" },
+		"coberto_slot_machine_side": { "textures": "textures/blocks/slot_machine_side" },
+		"coberto_slot_machine_top": { "textures": "textures/blocks/slot_machine_top" },
+		"coberto_slot_machine_bottom": { "textures": "textures/blocks/slot_machine_bottom" }
+	}
+}
