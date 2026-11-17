@@ -1,9 +1,9 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Rocket Launcher §b§l[1.0.0]",
-		"description": "Adds a rocket launcher that causes a massive explosion!",
-		"uuid": "7f72bd46-e063-4151-896b-fd3b05ef6a65",
+		"name": "Slot Machine §7§l[1.0.0]",
+		"description": "Adds a slot machine function! \n§bMCBE 1.21.72",
+		"uuid": "10c6fe14-9e4e-4f61-9159-b352633f2679",
 		"version": [
 			1,
 			0,
@@ -25,7 +25,7 @@
 	],
 	"dependencies": [
 		{
-			"uuid": "d09081ee-0ba2-4f78-adf0-7a6832abbff6",
+			"uuid": "b2c06458-8949-421d-ae70-ae77b237001b",
 			"version": [ 1, 0, 0 ]
 		},
 		{
