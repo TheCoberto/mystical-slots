@@ -15,7 +15,7 @@ No experimental toggles needed. It uses only stable Script API features (`@minec
 
 ## Also in Coberto's Utilities
 
-The same slot machine is part of [Coberto's Utilities](https://github.com/TheCoberto/coberto-utilities). Install one or the other, not both. Keep these files the same in both repos:
+The same slot machine is part of [Coberto's Utilities](https://github.com/TheCoberto/coberto-utilities). Install one or the other, not both. Edit the slot machine files here; Coberto's Utilities copies them with `sync.ps1` (its `sync.json` lists them):
 - `blocks/slot_machine.json`, `scripts/slot_machine.js` and the `functions/slots_*.mcfunction` files
 - `blocks.json`, `textures/terrain_texture.json` (apart from `resource_pack_name`), `textures/blocks/slot_machine_*.png` and the `tile.coberto:slot_machine.name` line in `texts/en_US.lang`
 
