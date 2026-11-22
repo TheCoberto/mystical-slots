@@ -1,6 +1,6 @@
-# slot-machine
+# mystical-slots
 
-**Slot Machine** is a Minecraft Bedrock add-on that adds a **Slot Machine** block (in the creative inventory under Items). Use it to open the Mystical Slots menu and bet from your `Money` scoreboard score:
+**Mystical Slots** is a Minecraft Bedrock add-on that adds a **Slot Machine** block (in the creative inventory under Items). Use it to open the Mystical Slots menu and bet from your `Money` scoreboard score:
 
 | Bet | Cost | Match two | Match three (jackpot) |
 | --- | --- | --- | --- |
@@ -15,7 +15,7 @@ No experimental toggles needed. It uses only stable Script API features (`@minec
 
 ## Also in Coberto's Utilities
 
-The same slot machine is part of [Coberto's Utilities](https://github.com/TheCoberto/coberto-utilities). Install one or the other, not both. Edit the slot machine files here; Coberto's Utilities copies them with `sync.ps1` (its `sync.json` lists them):
+Mystical Slots is also part of [Coberto's Utilities](https://github.com/TheCoberto/coberto-utilities). Install one or the other, not both. Edit the slot machine files here; Coberto's Utilities copies them with `sync.ps1` (its `sync.json` lists them):
 - `blocks/slot_machine.json`, `scripts/slot_machine.js` and the `functions/slots_*.mcfunction` files
 - `blocks.json`, `textures/terrain_texture.json` (apart from `resource_pack_name`), `textures/blocks/slot_machine_*.png` and the `tile.coberto:slot_machine.name` line in `texts/en_US.lang`
 

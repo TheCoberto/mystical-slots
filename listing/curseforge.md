@@ -1,11 +1,11 @@
-# CurseForge listing: Slot Machine
+# CurseForge listing: Mystical Slots
 
 Paste these into the CurseForge Authors Console. Once the project is approved, CurseForge syncs it to MCPEDL.
 
 ## Project
 
-- **Name:** Slot Machine: Gamble Your Server's Money
-- **Slug:** `slot-machine` (new project, so any free slug works)
+- **Name:** Mystical Slots: Slot Machine Casino Game
+- **Slug:** `mystical-slots` (new project, so any free slug works)
 - **Summary:** A Slot Machine block for servers and Realms: bet from your Money score on Low Risk or High Roller spins and hit the jackpot.
 - **Class:** Minecraft Bedrock, Addons
 - **Project Distribution** (License section): allow third-party distribution, or it won't show on MCPEDL
@@ -30,8 +30,8 @@ Prefer command blocks? `/function slots_low_risk_bet` and `/function slots_high_
 ### Installation
 
 1. Download the .mcaddon and open it. Minecraft imports both packs.
-2. Create or edit a world and turn on the Slot Machine behavior pack (the resource pack is added with it). No experiments needed.
-3. Don't use it alongside Coberto's Utilities, which already includes the Slot Machine.
+2. Create or edit a world and turn on the Mystical Slots behavior pack (the resource pack is added with it). No experiments needed.
+3. Don't use it alongside Coberto's Utilities, which already includes Mystical Slots.
 
 ### Supported Minecraft versions
 
@@ -45,8 +45,8 @@ Prefer command blocks? `/function slots_low_risk_bet` and `/function slots_high_
 
 ## File
 
-- **File:** `builds\Slot-Machine-2.0.0.mcaddon`
-- **Display name:** Slot Machine 2.0.0
+- **File:** `builds\Mystical-Slots-2.0.0.mcaddon`
+- **Display name:** Mystical Slots 2.0.0
 - **Release type:** Release
 - **Game versions:** 1.26.60 and newer
 - **Changelog:**
