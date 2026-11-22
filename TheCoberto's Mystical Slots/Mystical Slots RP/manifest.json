@@ -1,17 +1,17 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Mystical Slots §7§l[2.0.0]",
+		"name": "Mystical Slots §7§l[2.1.0]",
 		"description": "Textures for the Slot Machine block.",
 		"uuid": "b2c06458-8949-421d-ae70-ae77b237001b",
-		"version": [ 2, 0, 0 ],
+		"version": [ 2, 1, 0 ],
 		"min_engine_version": [ 1, 26, 60 ]
 	},
 	"modules": [
 		{
 			"type": "resources",
 			"uuid": "c100f76b-0c4e-4808-abdf-f2d378198eee",
-			"version": [ 2, 0, 0 ]
+			"version": [ 2, 1, 0 ]
 		}
 	]
 }
