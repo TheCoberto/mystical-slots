@@ -1,30 +1,30 @@
 {
 	"format_version": 2,
 	"header": {
-		"name": "Mystical Slots §7§l[2.0.0]",
+		"name": "Mystical Slots §7§l[2.1.0]",
 		"description": "A Slot Machine block. Bet your Money score on Mystical Slots!",
 		"uuid": "10c6fe14-9e4e-4f61-9159-b352633f2679",
-		"version": [ 2, 0, 0 ],
+		"version": [ 2, 1, 0 ],
 		"min_engine_version": [ 1, 26, 60 ]
 	},
 	"modules": [
 		{
 			"type": "data",
 			"uuid": "7ac456ff-39b0-4122-ae12-47ad50c51a6b",
-			"version": [ 2, 0, 0 ]
+			"version": [ 2, 1, 0 ]
 		},
 		{
 			"type": "script",
 			"language": "javascript",
 			"uuid": "3d5a1022-55c5-49d5-970d-3839352b83b3",
 			"entry": "scripts/main.js",
-			"version": [ 2, 0, 0 ]
+			"version": [ 2, 1, 0 ]
 		}
 	],
 	"dependencies": [
 		{
 			"uuid": "b2c06458-8949-421d-ae70-ae77b237001b",
-			"version": [ 2, 0, 0 ]
+			"version": [ 2, 1, 0 ]
 		},
 		{
 			"module_name": "@minecraft/server",

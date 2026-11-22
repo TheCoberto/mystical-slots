@@ -39,17 +39,19 @@ Prefer command blocks? `/function slots_low_risk_bet` and `/function slots_high_
 
 ### Changelog
 
+**2.1.0**
+- Slot Machine is now called Mystical Slots, its original name. The block is still the Slot Machine, and existing worlds keep working
+
 **2.0.0**
 - Rebuilt around a Slot Machine block with a menu
 - No experiments needed
 
 ## File
 
-- **File:** `builds\Mystical-Slots-2.0.0.mcaddon`
-- **Display name:** Mystical Slots 2.0.0
+- **File:** `builds\Mystical-Slots-2.1.0.mcaddon`
+- **Display name:** Mystical Slots 2.1.0
 - **Release type:** Release
 - **Game versions:** 1.26.60 and newer
 - **Changelog:**
 
-- Rebuilt around a Slot Machine block with a menu
-- No experiments needed
+- Slot Machine is now called Mystical Slots, its original name. The block is still the Slot Machine, and existing worlds keep working
