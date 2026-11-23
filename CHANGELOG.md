@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 2.2.0
 
 - Only operators and players in creative mode can break a Slot Machine
 
