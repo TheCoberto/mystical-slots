@@ -1,4 +1,4 @@
-import { system, world } from "@minecraft/server";
+import { GameMode, system, world } from "@minecraft/server";
 import { ActionFormData } from "@minecraft/server-ui";
 
 // Slot machine block (coberto:slot_machine). Using it opens a menu to pick a
@@ -31,7 +31,20 @@ system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
 	} catch {
 		// Utilities and Slot Machine both include this script. If both are
 		// installed, the first one registers the machine and handles it.
+		return;
 	}
+
+	// Only operators, or players in creative, can break a slot machine.
+	world.beforeEvents.playerBreakBlock.subscribe((event) => {
+		if (event.block.typeId !== "coberto:slot_machine") return;
+		const { player } = event;
+		if (player.getGameMode() === GameMode.Creative) return;
+		if (player.playerPermissionLevel === 2) return; // PlayerPermissionLevel.Operator
+		event.cancel = true;
+		system.run(() => {
+			if (player.isValid) player.sendMessage("[§6Mystical Slots§r] §cYou can't break a slot machine.");
+		});
+	});
 });
 
 async function openMenu(player) {
