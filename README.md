@@ -1,6 +1,6 @@
 # mystical-slots
 
-**Mystical Slots** is a Minecraft Bedrock add-on that adds a **Slot Machine** block (in the creative inventory under Items). Use it to open the Mystical Slots menu and bet from your `Money` scoreboard score:
+**Mystical Slots** is a Minecraft Bedrock add-on that adds a **Slot Machine** block (in the creative inventory under Items). Only operators and players in creative mode can break it. Use it to open the Mystical Slots menu and bet from your `Money` scoreboard score:
 
 | Bet | Cost | Match two | Match three (jackpot) |
 | --- | --- | --- | --- |
