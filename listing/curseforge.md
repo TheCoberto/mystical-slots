@@ -39,6 +39,9 @@ Prefer command blocks? `/function slots_low_risk_bet` and `/function slots_high_
 
 ### Changelog
 
+**2.2.0**
+- Only operators and players in creative mode can break a Slot Machine
+
 **2.1.0**
 - Slot Machine is now called Mystical Slots, its original name. The block is still the Slot Machine, and existing worlds keep working
 
@@ -48,10 +51,10 @@ Prefer command blocks? `/function slots_low_risk_bet` and `/function slots_high_
 
 ## File
 
-- **File:** `builds\Mystical-Slots-2.1.0.mcaddon`
-- **Display name:** Mystical Slots 2.1.0
+- **File:** `builds\Mystical-Slots-2.2.0.mcaddon`
+- **Display name:** Mystical Slots 2.2.0
 - **Release type:** Release
 - **Game versions:** 1.26.60 and newer
 - **Changelog:**
 
-- Slot Machine is now called Mystical Slots, its original name. The block is still the Slot Machine, and existing worlds keep working
+- Only operators and players in creative mode can break a Slot Machine
